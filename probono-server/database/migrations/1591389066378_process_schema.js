@@ -5,15 +5,15 @@ const Schema = use('Schema')
 
 class ProcessSchema extends Schema {
   up () {
-    this.create('processes', (table) => {
+    this.create('lawSuit', (table) => {
       table.increments()
-      table.string('process', ).notNullable().unique()
+      table.string('process', 20).notNullable().unique()
       table.timestamps()
     })
   }
 
   down () {
-    this.drop('processes')
+    this.drop('lawSuit')
   }
 }
 
