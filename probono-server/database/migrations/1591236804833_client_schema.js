@@ -9,6 +9,8 @@ class ClientSchema extends Schema {
       table.increments() 
       table.string('nome', 80).notNullable().unique()
       table.string('email', 254).notNullable().unique()
+      table.string('cpf', 80).notNullable().unique()
+      table.string('password', 80).notNullable().unique()
       table.timestamps()
     })
   }
