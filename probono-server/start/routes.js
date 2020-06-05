@@ -7,4 +7,4 @@ Route.resource('clients', 'ClientController',
 )
   .apiOnly()
   .validator('StoreClient')
-  
+
