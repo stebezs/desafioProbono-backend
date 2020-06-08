@@ -1,0 +1,6 @@
+[submodule "desafioProbono-frontend"]
+	path = desafioProbono-frontend
+	url = https://github.com/stebezs/desafioProbono-frontend
+[submodule "Probono-frontend"]
+	path = Probono-frontend
+	url = https://github.com/stebezs/desafioProbono-frontend
