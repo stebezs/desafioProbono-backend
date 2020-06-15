@@ -5,6 +5,9 @@ Para este projeto foi utilizado o AdonisJS.
 - Para instalar:
 > npm i -g @adonisjs/cli
 
+- Para instalar o banco de dados:
+> npm i pg
+
 - Para rodar as migrations:
 > adonis migration:run
 
